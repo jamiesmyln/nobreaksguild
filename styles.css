@@ -33,3 +33,8 @@ nav, h1, h2, h3, h4, h5, h6 {
   color: #FAF7EC; /* Off White */
   background-color: rgba(27, 30, 33, 0.83); /* Dark Gray */
 }
+
+.btn-primary {
+  background-color: #9B1616;
+  border-color: #9B1616;
+}
