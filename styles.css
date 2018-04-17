@@ -8,6 +8,14 @@ html {
   height: 100%;
 }
 
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mate SC', serif;
+}
+
 .bg-image {
   background: url(images/site-bg.jpg), #451212;
   background-blend-mode: luminosity;
