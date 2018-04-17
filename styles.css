@@ -9,7 +9,7 @@ html {
 
 .bg-image {
   background: url(images/site-bg.jpg), #451212 no-repeat center;
-  background-blend-mode: color-burn;
+  background-blend-mode: luminosity;
   background-size: cover;
   position: relative;
 }
