@@ -13,6 +13,10 @@ html {
   position: relative;
 }
 
+.navbar {
+  margin-bottom: 2em;
+}
+
 .jumbotron {
   color: #FAF7EC; /* Off White */
   background-color: rgba(27, 30, 33, 0.83); /* Dark Gray */
