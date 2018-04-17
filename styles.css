@@ -10,8 +10,10 @@ html {
 .bg-image {
   background: url(images/site-bg.jpg) no-repeat center;
   background-size: cover;
+  position: relative;
 }
 
 .jumbotron {
-  color: #FAF7EC; /* off white */
+  color: #FAF7EC; /* Off White */
+  background-color: rgba(27, 30, 33, 0.83); /* Dark Gray */
 }
