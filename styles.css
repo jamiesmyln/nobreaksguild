@@ -46,9 +46,6 @@ footer .col{
   position: relative;
   padding: 3em;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .static {
