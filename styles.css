@@ -39,6 +39,10 @@ nav, h1, h2, h3, h4, h5, h6 {
   border-color: #9B1616;
 }
 
+.guild, .raiding, .contact {
+  min-height: 500px;
+}
+
 footer {
   background-color: #000;
   color: #ccc;
