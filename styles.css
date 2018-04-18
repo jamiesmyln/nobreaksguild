@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #FAF7EC; /* Off White */
 }
 
 nav, h1, h2, h3, h4, h5, h6 {
@@ -30,7 +31,6 @@ nav, h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-  color: #FAF7EC; /* Off White */
   background-color: rgba(27, 30, 33, 0.83); /* Dark Gray */
 }
 
