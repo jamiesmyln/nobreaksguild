@@ -72,6 +72,6 @@ footer .col{
   bottom: 0;
   left: 0;
   transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
+  background-size: cover;
   z-index: -1;
 }
