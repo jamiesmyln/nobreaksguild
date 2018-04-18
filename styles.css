@@ -38,11 +38,6 @@ nav, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.horde-logo {
-  background-image: url(images/horde.svg) no-repeat;
-  height: 100px;
-}
-
 .btn-primary {
   background-color: #9B1616;
   border-color: #9B1616;
