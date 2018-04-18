@@ -50,12 +50,12 @@ footer .col{
 }
 
 .bg1::after {
-  background-image: url('images/site-bg.jpg'), #451212;
+  background: url('images/site-bg.jpg'), #451212;
   background-blend-mode: luminosity;
 }
 
 .bg2::after {
-  background-image: url('https://placekitten.com/g/800/600');
+  background: url('https://placekitten.com/g/800/600');
 }
 
 .parallax::after {
