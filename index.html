@@ -8,8 +8,8 @@
   </head>
 
   <body class="bg-image">
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">No Breaks</a>
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#Top">No Breaks</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,28 +29,45 @@
     </nav>
     <!-- end nav -->
 
-    <!-- Jumbotron -->
-    <div class="container-fluid">
-      <div class="jumbotron">
-        <h1 class="display-4">No Breaks</h1>
-        <p class="lead">A social Horde raiding guild on Thrall (US).</p>
-        <hr class="my-4">
-        <p>We value personality as much as skill in our players. We play to have fun and kill monsters!</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+      <!-- Jumbotron -->
+      <div id="Top" class="container-fluid">
+        <div class="jumbotron">
+          <h1 class="display-4">No Breaks</h1>
+          <p class="lead">A social Horde raiding guild on Thrall (US).</p>
+          <hr class="my-4">
+          <p>We value personality as much as skill in our players. We play to have fun and kill monsters!</p>
+          <a class="btn btn-primary btn-lg" href="#Guild" role="button">Learn more</a>
+        </div>
+      </div>
+
+      <!-- The Guild -->
+      <div id="Guild" class="container-fluid guild">
+        <h1>The Guild</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laboriosam quod tenetur quidem porro, ducimus necessitatibus repellat placeat atque accusantium, consectetur nisi, tempora eligendi quam cupiditate tempore quis rem nostrum?</p>
+      </div>
+      <!-- Raiding -->
+      <div id="Raiding" class="container-fluid raiding">
+        <h1>Raiding</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quisquam voluptatem obcaecati officia ad voluptate nemo omnis, excepturi dolore, minima natus iure eveniet rerum dolor reiciendis pariatur commodi suscipit deserunt.</p>
+      </div>
+      <!-- Contact Us -->
+      <div id="Contact" class="container-fluid contact">
+        <h1>Contact Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo deserunt odit consequatur fugit culpa quas quasi odio maiores hic totam repellendus tempore, modi dolorem recusandae eveniet aspernatur, delectus cupiditate nobis.</p>
       </div>
     </div>
 
-    <!-- The Guild -->
-    <div class="container-fluid guild">
-      
-    </div>
-    <!-- Raiding -->
-
-    <!-- Contact Us -->
-
+    <footer>
+      <p>No Breaks - Horde - Thrall (US)</p>
+      <a href="" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+      <a href="" target="_blank"><i class="far fa-chart-bar"></i> WoW Logs</a>
+      <p><i class="far fa-copyright"></i> 2018 Made with <i class="far fa-heart"></i> by Shadryn</p>
+    </footer>
     <!-- bootstrap 4 -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   </body>
 </html>
