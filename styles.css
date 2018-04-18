@@ -1,4 +1,4 @@
-html {
+/* html {
   margin: 0;
   padding: 0;
   left: 0;
@@ -6,7 +6,7 @@ html {
   bottom: 0;
   top: 0;
   height: 100%;
-}
+} */
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -43,10 +43,10 @@ nav, h1, h2, h3, h4, h5, h6 {
   border-color: #9B1616;
 }
 
-.guild, .raiding, .contact {
+/* .guild, .raiding, .contact {
   min-height: 500px;
   padding-top: 150px;
-}
+} */
 
 footer {
   background-color: #000;
