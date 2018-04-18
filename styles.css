@@ -75,6 +75,18 @@ footer .col{
   justify-content: center;
 }
 
+.static {
+  background: black;
+}
+
+.bg1::after {
+  background-image: url('images/site-bg.jpg');
+}
+
+.bg2::after {
+  background-image: url('https://placekitten.com/g/800/600');
+}
+
 .parallax::after {
   content: " ";
   position: absolute;
@@ -85,16 +97,4 @@ footer .col{
   transform: translateZ(-1px) scale(1.5);
   background-size: 100%;
   z-index: -1;
-}
-
-.static {
-  background: black;
-}
-
-.bg1::after {
-  background-image: url('https://placekitten.com/g/900/700');
-}
-
-.bg2::after {
-  background-image: url('https://placekitten.com/g/800/600');
 }
