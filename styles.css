@@ -14,8 +14,9 @@ nav, h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-  background-color: rgba(27, 30, 33, 0.83); /* Dark Gray */
+  background-color: rgba(32, 0, 0, 0.75); /* Dark Red */
   text-align: center;
+  margin: auto;
 }
 
 .btn-primary {
