@@ -34,6 +34,14 @@ footer {
   color: #ccc;
 }
 
+footer .row {
+  padding: 2em;
+}
+
+footer p {
+  margin: 0;
+}
+
 footer .col{
   display: inline-block;
   margin: 2em 0;
@@ -58,7 +66,7 @@ aside {
 }
 
 .static {
-  background: black;
+  background: #343b3f;
 }
 
 .bg1::after {
