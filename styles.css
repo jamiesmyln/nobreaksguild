@@ -72,17 +72,21 @@ aside {
 
 .static {
   background: #343b3f;
+  padding: 50px 3em 3em 3em;
+  height: 50vh;
 }
 
 .bg1::after {
   background: url('images/site-bg.jpg'), #451212;
   background-blend-mode: luminosity;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 .bg2::after {
   background: url('images/site-bg2.jpg'), #451212;
   background-blend-mode: luminosity;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
