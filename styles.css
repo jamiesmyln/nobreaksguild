@@ -53,6 +53,10 @@ footer .col{
   height: 100vh;
 }
 
+aside {
+  margin: auto;
+}
+
 .static {
   background: black;
 }
