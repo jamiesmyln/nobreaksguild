@@ -19,6 +19,10 @@ nav, h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
+.raiding .jumbotron {
+  text-align: left;
+}
+
 .btn-primary {
   background-color: #9B1616;
   border-color: #9B1616;
