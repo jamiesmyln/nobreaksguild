@@ -69,7 +69,7 @@ footer .col{
 
 .section {
   position: relative;
-  padding: 150px 3em;
+  padding: 100px 3em 150px 3em;
   height: auto;
 }
 
@@ -79,7 +79,7 @@ aside {
 
 .static {
   background: #343b3f;
-  padding: 100px 3em 150px 3em;
+  padding: 150px 3em;
   height: auto;
 }
 
