@@ -86,14 +86,14 @@ aside {
 .bg1::after {
   background: url('images/site-bg.jpg'), #451212;
   background-blend-mode: luminosity;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
 .bg2::after {
   background: url('images/site-bg2.jpg'), #451212;
   background-blend-mode: luminosity;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
