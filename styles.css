@@ -70,7 +70,7 @@ footer .col{
 .section {
   position: relative;
   padding: 150px 3em;
-  height: 100vh;
+  height: 130%;
 }
 
 aside {
@@ -108,3 +108,5 @@ aside {
   background-size: cover;
   z-index: -1;
 }
+
+/* Mobile */
